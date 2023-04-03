@@ -1,0 +1,26 @@
+{
+    "name": "2two2d/collect",
+    "description": "Module for working with arrays ",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "2two2d",
+            "email": "qwe@qwe"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collect\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
+
+
